@@ -83,6 +83,7 @@ const nextConfig = {
     // 允许next/image加载的图片 域名
     domains: [
       'gravatar.com',
+      'kechang.uk',
       'www.notion.so',
       'avatars.githubusercontent.com',
       'images.unsplash.com',
