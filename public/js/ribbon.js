@@ -80,7 +80,7 @@ function createRibbon() {
 
 function destroyRibbon() {
   const ribbon = document.getElementById(idRibbon)
-  if (ribbon && ribbon.parentNode && ribbon.parentNode.contains(ribbon)) {
+  if (ribbon && ribbon.parentNode) {
     ribbon.parentNode.removeChild(ribbon)
   }
 }
